@@ -1,1 +1,22 @@
 msg: mama eammi chastunav
+server.port=8789
+
+spring.datasource.url=jdbc:mysql://localhost:3306/sbms
+spring.datasource.username=root
+spring.datasource.password=manager
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+
+
+
+
+#smtp properties
+
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=bheemesh2jetty@gmail.com
+spring.mail.password=tenf hzag dtbc peze
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
