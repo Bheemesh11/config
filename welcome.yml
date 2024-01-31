@@ -1,23 +1,2 @@
-msg: mama eammi chastunav
-server:
-  port: 8789
-spring:
-  datasource:
-    password: manager
-    url: jdbc:mysql://localhost:3306/sbms
-    username: root
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-  mail:
-    host: smtp.gmail.com
-    password: tenf hzag dtbc peze
-    port: 587
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
-    username: bheemesh2jetty@gmail.com
+
+
